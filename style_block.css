@@ -1,0 +1,98 @@
+body{
+    background-position: cover;
+    background: url(/images/background2.jpg);
+    background-opacity : 0.3;
+}
+
+*{
+    color : white;
+}
+
+#header *{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+}
+.photo{
+    text-align : center;
+}
+.photo img{
+    width : 50%;
+    border-radius: 150px;
+}
+
+.border {
+    border: 2px solid black;
+    border-radius : 15px;
+    padding : 10px;
+}
+
+.bkg-grey{
+    background: #2F2F2F;
+}
+.bkg-black{
+    background: black;
+}
+
+.pink{
+    color: deeppink;
+}
+
+.blue{
+    color: deepskyblue;
+}
+
+#main_container {
+    text-align : center;
+}
+.row {
+    text-align : left;
+}
+
+.section_title{
+    font-weight : bold;
+    font-size :30px;
+}
+.icon{
+    display:inline-block;
+    text-align:center;
+}
+.icon img{
+    width : 30px;
+    vertical-align : bottom;
+}
+
+.item-date,
+.item{
+    display:inline-block;;
+}
+
+.item-container{
+
+}
+
+.item-title{
+    text-decoration: underline;
+}
+
+.item-date{
+    vertical-align : top;
+}
+.item{
+
+}
+.item-description{
+
+}
+
+.margin-top-small{
+    margin-top : 15px;
+}
+
+.margin-top-big{
+    margin-top : 30px;
+}
+
+.align-right{
+    text-align : right;
+    padding-right: 25px;
+}

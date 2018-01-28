@@ -1,0 +1,82 @@
+.bkg1{
+    background-image: url(/images/bkg1.jpg);
+}
+
+.bkg2{
+    background-image: url(/images/bkg2.jpg);
+}
+.bkg3{
+    background-image: url(/images/bkg3.jpg);
+}
+.bkg4{
+    background-image: url(/images/bkg4.jpg);
+}
+.bkg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position : center;
+}
+
+@media only screen and (max-width: 60em) { /* 960px */
+    .bkg {
+
+    }
+}
+*{
+    color: white;
+    box-sizing: border-box;
+}
+
+.full,
+.full *{
+    background-color : #BBACAC;
+    color : black;
+}
+
+.header span {
+    display : block;
+    font-size: 30px;
+}
+
+.header * {
+    font-family: 'Dosis', sans-serif;
+    color : white;
+}
+
+.item-title{
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+
+.item-company{
+    font-style: italic;
+}
+
+.padding-space{
+    padding: 60px 0;
+}
+
+.section-title{
+    font-size : 55px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    vertical-align : middle;
+    font-weight: bold;
+}
+
+.white {
+    color : white;
+}
+
+.skills img{
+    width:100%;
+}
+
+.hobbies img{
+    width:25%;
+}
+
+.hobby{
+    text-align : center;
+}
